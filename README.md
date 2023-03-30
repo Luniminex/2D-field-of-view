@@ -1,4 +1,4 @@
-#2D FOV and Lighting
+# 2D FOV and Lighting
 
 Basic implementation of 2D field of view system with basic spotlights.
 Note that this is not optimized in any way and should be considered more as a proof of concept and for fun.
@@ -14,7 +14,7 @@ Note that this is not optimized in any way and should be considered more as a pr
 + Arrow Key Up to increase number of additional rays
 + Arrow Key Down to decrease number of additional rays
 
-##How does it work?
+## How does it work?
 
 I mainly followed tips from this site [https://ncase.me/sight-and-light/].
 At the basic level I cast a ray at every corner of a wall and then two additional rays
