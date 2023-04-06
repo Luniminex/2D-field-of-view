@@ -23,3 +23,6 @@ After that I create trinagles from sorted intersections and apply alpha to the c
 ### Lightning
 In SDL lighting is achieved by first rendering to the background texture layer with SDL_BlendMode set to SDL_BLENDMODE_BLEND boxes and rendering image, boxes and walls. Then by creating a new texture with SDL_BlendMode set to SDL_BLENDMODE_MOD and rendering spotlights and FOV with black background. Combining these two textures to new texture with SDL_BlendMode set to SDL_BLENDMODE_BLEND gives the desired effect.  
 Note that there are probably more ways to achieve better lighting effect but this is what I found.
+
+### Example
+![My Image](resources/lighting.png)
